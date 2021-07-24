@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./css/finly.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-6">
+        <input type="text" id="myInput" placeholder="Write a Comment">
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-primary" onclick="addComment()">Add</button>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+
+  </div>
+  <div class="container" id="commentList" style="border: 2px dotted black; padding: 0px;">
+
+  </div>
+
+  <script src="./js/finly.js"> </script>
+
+</body>
+
+</html>
